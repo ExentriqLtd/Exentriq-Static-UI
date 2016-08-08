@@ -4,7 +4,7 @@
 
 ## Tasks
 
-Before: [Install Tools](https://github.com/ExentriqLtd/Exentriq-Static-UI)
+Before: [Install Tools](https://github.com/ExentriqLtd/Exentriq-Static-UI#installation-tools)
 
 - Automate tasks:
 

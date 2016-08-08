@@ -21,5 +21,5 @@ npm install
 
 ## All UI
 
-- [LOGIN](https://github.com/ExentriqLtd/Exentriq-Static-UI/ui/login)
-- [PUBLIC PROFILE](https://github.com/ExentriqLtd/Exentriq-Static-UI/ui/public_profile)
+- [LOGIN](https://github.com/ExentriqLtd/Exentriq-Static-UI/tree/master/ui/login)
+- [PUBLIC PROFILE](https://github.com/ExentriqLtd/Exentriq-Static-UI/tree/master/ui/public_profile)
