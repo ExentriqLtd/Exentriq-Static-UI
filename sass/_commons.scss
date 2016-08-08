@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* --------------------------------------- */
+/* Import vendors
+/* --------------------------------------- */
+
+//@import url("../../lib/vendor/fancybox/source/jquery.fancybox.css");
+
+// Common
+@import "common/mixins";
+@import "common/variables";
+
+// Global
+@import "common/global";
+
+// Components
+@import "components/global-search";

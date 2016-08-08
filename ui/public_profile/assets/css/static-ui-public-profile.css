@@ -1,0 +1,632 @@
+/* --------------------------------------- */
+/* Import vendors
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* Import Fonts
+/* --------------------------------------- */
+/*** Colors ***/
+/*** Screen Sizes ***/
+.container, .container-fluid {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* --------------------------------------- */
+/* Test
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* Global search
+/* --------------------------------------- */
+@media (max-width: 320px) {
+  .hidden-xxs {
+    display: none !important;
+  }
+}
+
+.eq-st-ui-public-profile-cover {
+  position: relative;
+  overflow: hidden;
+  height: 480px;
+}
+
+.eq-st-ui-public-profile-header {
+  background-color: #ffffff;
+}
+
+.eq-st-ui-public-profile-header * {
+  text-align: center;
+}
+
+.eq-st-ui-public-profile-header.with_cover {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.eq-st-ui-public-profile-header.with_cover .eq-st-ui-public-profile-cover {
+  position: relative;
+  min-height: 200px;
+  background: #b9c1c7;
+  margin-bottom: -104px;
+}
+
+.eq-st-ui-public-profile-header.with_cover .eq-st-ui-public-profile-cover .eq-st-ui-public-profile-cover-wrap .eq-st-ui-public-profile-cover-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-avatar {
+  margin: 0 auto;
+  width: 104px;
+  height: 104px;
+  position: relative;
+  z-index: 100;
+  top: 52px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-avatar .eq-st-ui-public-profile-avatar-wrap {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 104px;
+  height: 104px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-avatar .eq-st-ui-public-profile-avatar-wrap .eq-st-ui-public-profile-avatar-image {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details {
+  /*margin-bottom: 10px;*/
+  position: relative;
+  padding-top: 68px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details h1 {
+  font-size: 30px;
+  line-height: 0.8;
+  text-align: center;
+  color: #525558;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-details-links {
+  margin-top: 8px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-details-links a {
+  color: #1bbc9b;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-details-short-bio {
+  margin: 12px auto 10px auto;
+  max-width: 500px;
+  line-height: 15px;
+  max-height: 40px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-details-short-bio p {
+  color: #525558;
+  margin: 0;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-details-info {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-details-info li {
+  display: inline-block;
+  color: #9b9b9b;
+  margin: 0 10px;
+  line-height: 1.4em;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-buttons {
+  position: absolute;
+  padding: 10px 30px 0 0;
+  margin-bottom: 30px;
+  right: 0;
+  top: -38px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-buttons .eq-st-ui-public-profile-buttons-wrap {
+  display: inline-block;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-buttons .eq-st-ui-public-profile-buttons-wrap .eq-ui-btn-fab-floating {
+  position: relative;
+  right: inherit;
+  bottom: inherit;
+  margin-top: 12px;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-buttons .eq-st-ui-public-profile-buttons-wrap .eq-ui-btn-fab-floating:first-child {
+  margin-top: 0;
+}
+
+.eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-buttons-left {
+  left: 0;
+  right: auto;
+  padding: 10px 0 0 30px;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed {
+  margin-bottom: 68px;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav {
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-left-inner {
+  height: 46px;
+  line-height: 46px;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-left-inner .eq-st-ui-public-profile-space-title-avatar-wrap {
+  float: left;
+  margin-right: 16px;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-left-inner .eq-st-ui-public-profile-space-title-avatar-wrap .eq-st-ui-public-profile-space-title-avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-left-inner span {
+  font-size: 14px;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-left-inner i {
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-right-inner {
+  height: 46px;
+  line-height: 46px;
+  text-align: right;
+}
+
+.eq-st-ui-public-profile-header.eq-st-ui-public-profile-header-nav-fixed + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-right-inner .btn {
+  padding: 0;
+  min-width: 40px;
+}
+
+.eq-st-ui-public-profile-header:not(.eq-st-ui-public-profile-header-nav-fixed) + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-left-inner, .eq-st-ui-public-profile-header:not(.eq-st-ui-public-profile-header-nav-fixed) + .eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont-right-inner {
+  display: none;
+}
+
+.eq-st-ui-public-profile-nav {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 48px;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 0 0 #ececec, inset 0 -1px 0 0 #ececec;
+}
+
+.eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont {
+  height: 48px;
+}
+
+.eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont .eq-ui-tabs {
+  width: 100%;
+  text-align: center;
+}
+
+.eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont .eq-ui-tabs li a {
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont .eq-ui-tabs li a.active {
+  color: #1bbc9b;
+}
+
+.eq-st-ui-public-profile-nav .eq-st-ui-public-profile-nav-cont .eq-ui-tabs li a span {
+  font-weight: 300;
+}
+
+.eq-st-ui-public-profile-cont {
+  /*padding-left: 120px;
+    padding-right: 120px;*/
+}
+
+.eq-st-ui-public-profile-collapsible {
+  box-shadow: none;
+  border: 0;
+}
+
+.eq-st-ui-public-profile-collapsible li {
+  margin-bottom: 20px;
+}
+
+.eq-st-ui-public-profile-collapsible li .eq-ui-collapsible-header {
+  /*border-top: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;*/
+  height: 80px;
+  line-height: 80px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.eq-st-ui-public-profile-collapsible li .eq-ui-collapsible-body .eq-ui-collapsible-body-inner {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Media */
+@media (max-width: 1200px) {
+  /*.eq-st-ui-public-profile-cont {
+        padding-left: 24px;
+        padding-right: 24px;
+    }*/
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-title {
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-title .eq-st-ui-public-profile-space-title-avatar-wrap {
+  float: left;
+  margin-right: 25px;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-title .eq-st-ui-public-profile-space-title-avatar-wrap .eq-st-ui-public-profile-space-title-avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-title span {
+  font-weight: 700;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-title i {
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-teams {
+  text-align: right;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-teams .eq-st-ui-public-profile-space-teams-wrap {
+  float: right;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-teams .eq-st-ui-public-profile-space-teams-wrap i {
+  margin-right: 10px;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-activity {
+  text-align: right;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-header .eq-st-ui-public-profile-space-activity span {
+  font-weight: 700;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul {
+  width: 100%;
+  padding: 0;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: #9b9b9b;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-team span {
+  margin-top: 8px;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-responsible {
+  text-align: right;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-responsible span {
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-accountable {
+  text-align: right;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-accountable span {
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-working {
+  text-align: right;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-working span {
+  float: right;
+}
+
+.eq-st-ui-public-profile-spaces .eq-ui-collapsible-body ul li .eq-st-ui-public-profile-space-body-working span .eq-st-ui-public-profile-space-body-working-avatar {
+  float: right;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+/* Media */
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul {
+  width: 100%;
+  padding: 0;
+  line-height: 24px;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li {
+  margin: 0;
+  font-size: 13px;
+  color: #9b9b9b;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-activity {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-activity > span {
+  line-height: 24px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #9b9b9b;
+  margin-top: 8px;
+  display: block;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-activity > span span {
+  font-weight: 700;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-project {
+  text-align: right;
+  line-height: 24px;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-project span {
+  line-height: 24px;
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-responsible {
+  text-align: right;
+  line-height: 24px;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-responsible span {
+  line-height: 24px;
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-colaborators {
+  text-align: right;
+  line-height: 24px;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-colaborators span {
+  line-height: 24px;
+  float: right;
+}
+
+.eq-st-ui-public-profile-projects .eq-ui-collapsible-header ul li .eq-st-ui-public-profile-projects-body-colaborators span .eq-st-ui-public-profile-projects-body-colaborators-avatar {
+  float: right;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+/* Media */
+.eq-st-ui-public-profile-latest-posts .eq-ui-card {
+  margin-bottom: 32px;
+}
+
+.eq-st-ui-public-profile-latest-posts .eq-ui-card .eq-ui-card-supporting-text .eq-st-ui-public-profile-latest-posts-font {
+  text-align: left;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.eq-st-ui-public-profile-latest-posts .eq-ui-card .eq-ui-card-supporting-text .eq-st-ui-public-profile-latest-posts-font span {
+  font-weight: 700;
+}
+
+.eq-st-ui-public-profile-latest-posts .eq-ui-card .eq-ui-card-supporting-text .eq-st-ui-public-profile-latest-posts-date {
+  text-align: right;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.eq-st-ui-public-profile-latest-posts .eq-ui-card .eq-ui-card-supporting-text .eq-st-ui-public-profile-latest-posts-date span {
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .eq-st-ui-public-profile-latest-posts .eq-ui-card .eq-ui-card-supporting-text .eq-st-ui-public-profile-latest-posts-date {
+    text-align: left;
+  }
+}
+
+.eq-st-ui-public-profile-latest-posts .eq-ui-card .eq-ui-card-supporting-text h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  color: #525558;
+  margin: 13px 0;
+}
+
+.eq-st-ui-public-profile-latest-posts .eq-ui-card .eq-ui-card-supporting-text .eq-st-ui-public-profile-latest-posts-text {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #525558;
+}
+
+/* Media */
+.eq-st-ui-public-profile-endorsments > ul {
+  width: 100%;
+  padding: 0;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-title {
+  display: block;
+  line-height: 40px;
+  padding: 26px;
+  padding-bottom: 16px;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-title .eq-st-ui-public-profile-endorsments-title {
+  color: #525558;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-title .eq-st-ui-public-profile-endorsments-title .eq-st-ui-public-profile-endorsments-title-avatar-wrap {
+  float: left;
+  margin-right: 25px;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-title .eq-st-ui-public-profile-endorsments-title .eq-st-ui-public-profile-endorsments-title-avatar-wrap .eq-st-ui-public-profile-endorsments-title-avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-title .eq-st-ui-public-profile-endorsments-title span {
+  font-weight: 700;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-title .eq-st-ui-public-profile-endorsments-activity {
+  text-align: right;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-title .eq-st-ui-public-profile-endorsments-activity span {
+  font-weight: 700;
+}
+
+.eq-st-ui-public-profile-endorsments > ul li .eq-ui-card .eq-ui-card-supporting-text {
+  padding: 26px;
+  padding-top: 16px;
+  color: #525558;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-header .header-title .eq-st-ui-public-profile-endorsments-title {
+  color: #525558;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-header .header-title .eq-st-ui-public-profile-endorsments-title .eq-st-ui-public-profile-endorsments-title-avatar-wrap {
+  float: left;
+  margin-right: 25px;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-header .header-title .eq-st-ui-public-profile-endorsments-title .eq-st-ui-public-profile-endorsments-title-avatar-wrap .eq-st-ui-public-profile-endorsments-title-avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-header .header-title .eq-st-ui-public-profile-endorsments-title span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-content {
+  padding-top: 0;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-content textarea.eq-ui-textarea {
+  height: 24px;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-footer {
+  min-height: 88px;
+  line-height: 36px;
+  padding: 26px 24px;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-footer .btn {
+  float: right;
+  padding: 0 35px;
+}
+
+#eq-ui-modal-endorsments .eq-ui-modal-footer .btn.btn-endorsments-cancel {
+  color: #9b9b9b;
+  margin-right: 16px;
+}
+
+/* Media */
+@media (max-width: 480px) {
+  #eq-ui-modal-endorsments .eq-ui-modal-footer .btn {
+    padding: 0 8px;
+  }
+}
+/*# sourceMappingURL=static-ui-public-profile.css.map */

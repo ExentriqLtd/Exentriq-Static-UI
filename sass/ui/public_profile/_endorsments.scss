@@ -1,0 +1,129 @@
+// Endorsments
+
+.eq-st-ui-public-profile-endorsments {
+
+    // Comments
+    > ul {
+        width: 100%;
+        padding: 0;
+
+        li {
+            margin: 0;
+            margin-bottom: 20px;
+
+            .eq-ui-card {
+
+                // Title
+                .eq-ui-card-title {
+                    display: block;
+                    line-height: 40px;
+                    padding: 26px;
+                    padding-bottom: 16px;
+                    .eq-st-ui-public-profile-endorsments-title {
+                        color: #525558;
+                        .eq-st-ui-public-profile-endorsments-title-avatar-wrap {
+                            float: left;
+                            margin-right: 25px;
+                            .eq-st-ui-public-profile-endorsments-title-avatar {
+                                border-radius: 50%;
+                                width: 40px;
+                                height: 40px;
+                            }
+                        }
+                        span {
+                            font-weight: 700;
+                        }
+                    }
+
+                    .eq-st-ui-public-profile-endorsments-activity {
+                        text-align: right;
+                        font-size: 13px;
+                        color: #9b9b9b;
+                        span {
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                // Body
+                .eq-ui-card-supporting-text {
+                    padding: 26px;
+                    padding-top: 16px;
+                    color: #525558;
+                }
+
+            }
+        }
+    }
+}
+
+// Modal
+#eq-ui-modal-endorsments {
+
+    .eq-ui-modal-header {
+        .header-title {
+            .eq-st-ui-public-profile-endorsments-title {
+                color: #525558;
+                .eq-st-ui-public-profile-endorsments-title-avatar-wrap {
+                    float: left;
+                    margin-right: 25px;
+                    .eq-st-ui-public-profile-endorsments-title-avatar {
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                span {
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .eq-ui-modal-content {
+        padding-top: 0;
+
+        textarea.eq-ui-textarea {
+            height: 24px;
+        }
+    }
+
+    .eq-ui-modal-footer {
+        min-height: 88px;
+        line-height: 36px;
+        padding: 26px 24px;
+
+        .btn {
+            float: right;
+            padding: 0 35px;
+
+            &.btn-endorsments-cancel {
+                color: #9b9b9b;
+                margin-right: 16px;
+            }
+        }
+    }
+}
+
+/* Media */
+@media (max-width: $eq-st-ui-screen-xs){
+    // Modal
+    #eq-ui-modal-endorsments {
+
+        .eq-ui-modal-footer {
+
+            .btn {
+                padding: 0 8px;
+
+                &.btn-endorsments-cancel {
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $eq-st-ui-screen-xxs){
+
+}

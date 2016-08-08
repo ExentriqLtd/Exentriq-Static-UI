@@ -1,0 +1,16 @@
+{
+    "name": "exentriq-static-ui",
+    "version": "1.1.0",
+    "description": "Exentriq static ui",
+    "dependencies": {},
+    "devDependencies": {
+        "jquery":                               "^2.1.4",
+        "exentriq-bootstrap-material-ui":       "^0.3.4",
+
+        "jquery-timeago":                       "^1.4.3",
+        "moment":                               "^2.0.0",
+        "masonry":                              "^4.1.0",
+        "imagesloaded":                         "^4.1.0",
+        "riot":                                 "^2.3.13"
+    }
+}

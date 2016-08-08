@@ -1,0 +1,57 @@
+// Latest Posts
+
+.eq-st-ui-public-profile-latest-posts {
+
+    .eq-ui-card {
+
+        margin-bottom: 32px;
+
+        .eq-ui-card-supporting-text {
+
+            .eq-st-ui-public-profile-latest-posts-font {
+                text-align: left;
+                font-size: 13px;
+                color: #9b9b9b;
+                span {
+                    font-weight: 700;
+                }
+            }
+
+            .eq-st-ui-public-profile-latest-posts-date {
+                text-align: right;
+                font-size: 13px;
+                color: #9b9b9b;
+                span {
+                    font-weight: 700;
+                }
+
+                @media (max-width: $eq-st-ui-screen-xs){
+                    text-align: left;
+                }
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1;
+                color: #525558;
+                margin: 13px 0;
+            }
+
+            .eq-st-ui-public-profile-latest-posts-text {
+                font-size: 14px;
+                line-height: 1.4;
+                color: #525558;
+            }
+        }
+    }
+}
+
+/* Media */
+@media (max-width: $eq-st-ui-screen-xs){
+
+}
+
+@media (max-width: $eq-st-ui-screen-xxs){
+
+}
