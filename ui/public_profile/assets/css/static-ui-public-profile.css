@@ -152,6 +152,7 @@
 
 .eq-st-ui-public-profile-header .eq-st-ui-public-profile-details .eq-st-ui-public-profile-buttons .eq-st-ui-public-profile-buttons-wrap .eq-ui-btn-fab-floating {
   position: relative;
+  top: 0;
   right: inherit;
   bottom: inherit;
   margin-top: 12px;
